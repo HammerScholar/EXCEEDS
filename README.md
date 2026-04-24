@@ -17,7 +17,7 @@ This is the repository for the paper [**EXCEEDS: Extracting Complex Events via N
 
 ## 🔥 News
 
-- **2026 April 24**: Dataset is updated on HuggingFace.
+- **2026 April 24**: Dataset is updated on [HuggingFace](https://huggingface.co/datasets/Ralston/SciEvents).
 - **2026 April 7**: Paper is accepted by [ACL 2026](https://2026.aclweb.org/) Main Conference.
 - **2025 Nov 11:** Dataset is released on [HuggingFace](https://huggingface.co/datasets/Ralston/SciEvents).
 - **2024 Jun 20:** Paper is available on [arXiv](https://arxiv.org/abs/2406.14075).
@@ -70,7 +70,7 @@ We provide default arguments, which can be found in [main.py](main.py) and [conf
 python main.py --config config/scievents.json --ckpt your_best_model.state
 ```
 
-We provide a checkpoint and its training log, which can be found in this HuggingFace repository.
+We provide a checkpoint and its training log, which can be found in [this HuggingFace repository](https://huggingface.co/DataHammer/EXCEEDS).
 
 ## 📎 Citation
 
