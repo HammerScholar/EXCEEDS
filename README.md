@@ -34,7 +34,7 @@ The data format of SciEvents can be found at [data/SciEvents/README.md](data/Sci
 
 Download SciEvents from [this HuggingFace repository](https://huggingface.co/datasets/Ralston/SciEvents). Put `train.json`, `dev.json`, and `test.json` in [data/SciEvents/](data/SciEvents/) dicectory.
 
-Download Roberta-large from this [HuggingFace repository](https://huggingface.co/FacebookAI/roberta-large/tree/main).
+Download Roberta-large from [this HuggingFace repository](https://huggingface.co/FacebookAI/roberta-large/tree/main).
 
 ### Environment
 
