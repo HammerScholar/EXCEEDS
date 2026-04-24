@@ -1,0 +1,72 @@
+{
+    "nugget_types": ["OG", "APP", "MOD", "FEA", "TAK", "DST", "LIM", "STR", "WEA", "DEG"],
+    "event_types": {
+        "PUR": {
+            "Aim": ["APP", "MOD", "FEA", "DST", "STR", "WEA", "TAK"],
+            "Condition": ["LIM"],
+            "Dataset": ["DST"]
+        },
+        "PRP": {
+            "Proposer": ["OG"],
+            "Content": ["APP", "MOD", "FEA", "DST", "TAK"],
+            "Target": ["E-PUR", "TAK", "FEA", "WEA"]
+        },
+        "WKS": {
+            "Researcher": ["OG"],
+            "Content": ["APP", "MOD", "FEA", "DST", "STR", "WEA", "TAK"],
+            "Condition": ["LIM"],
+            "Dataset": ["DST"],
+            "Target": ["E-PUR", "TAK", "STR", "WEA", "APP", "MOD", "FEA"]
+        },
+        "ITT": {
+            "Target": ["APP", "MOD", "FEA", "DST", "STR", "WEA", "TAK"],
+            "Condition": ["LIM"],
+            "Dataset": ["DST"]
+        },
+        "RWS": {
+            "Subject": ["APP", "MOD", "FEA", "DST"],
+            "BaseComponent": ["APP", "MOD", "FEA", "DST"],
+            "TriedComponent": ["APP", "MOD", "FEA", "DST"],
+            "Condition": ["LIM", "E-RWS"],
+            "Dataset": ["DST"],
+            "Target": ["E-PUR", "TAK", "STR", "WEA", "APP", "MOD", "FEA"]
+        },
+        "RWF": {
+            "Concern": ["APP", "MOD", "FEA", "DST", "STR", "WEA"],
+            "Fault": ["APP", "MOD", "FEA", "DST", "STR", "WEA"],
+            "Condition": ["LIM", "E-RWS", "E-RWF"],
+            "Dataset": ["DST"],
+            "Target": ["E-PUR", "TAK", "STR", "WEA"],
+            "Extent": ["DEG"]
+        },
+        "MDS": {
+            "BaseComponent": ["APP", "MOD", "FEA", "DST"],
+            "TriedComponent": ["APP", "MOD", "FEA", "DST"],
+            "Condition": ["LIM", "E-MDS"],
+            "Dataset": ["DST"],
+            "Target": ["E-PUR", "TAK", "STR", "WEA", "APP", "MOD", "FEA"]
+        },
+        "FIN": {
+            "Finder": ["OG"],
+            "Content": ["E-FAC", "E-CMP"]
+        },
+        "CMP": {
+            "Arg1": ["E-FAC", "APP", "MOD", "FEA", "DST"],
+            "Arg2": ["E-FAC", "APP", "MOD", "FEA", "DST"],
+            "Condition": ["LIM", "E-FAC"],
+            "Dataset": ["DST"],
+            "Result": ["STR", "WEA"],
+            "Metrics": ["TAK"],
+            "Extent": ["DEG"]
+        },
+        "FAC": {
+            "Subject": ["APP", "MOD", "FEA", "DST", "TAK", "STR", "WEA"],
+            "Object": ["APP", "MOD", "FEA", "DST", "TAK", "STR", "WEA"],
+            "Condition": ["LIM", "E-FAC"],
+            "Reason": ["LIM", "E-FAC"],
+            "Dataset": ["DST"],
+            "Target": ["E-PUR", "TAK", "STR", "WEA"],
+            "Extent": ["DEG"]
+        }
+    }
+}

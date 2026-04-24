@@ -1,0 +1,23 @@
+{
+  "dataset": "SciEvents",
+
+  "dist_emb_size": 20,
+  "lstm_hid_size": 1024,
+  "bert_hid_size": 1024,
+  "dropout_rate": 0.5,
+  "grid_channels": 256,
+  "grid_refine_layers": 2,
+  "grid_refine_dropout": 0.1,
+  "grid_refine_kernel": 3,
+
+  "epochs": 20,
+  "batch_size": 2,
+
+  "learning_rate": 1e-3,
+  "weight_decay": 0,
+  "clip_grad_norm": 1.0,
+
+  "bert_name": "roberta-large",
+  "bert_learning_rate": 1e-5,
+  "warm_factor": 0.1
+}
