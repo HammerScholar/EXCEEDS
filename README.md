@@ -7,7 +7,7 @@
 <h5 align=center>
   
 [![arXiv](https://img.shields.io/badge/arXiv-2406.14075-b31b1b.svg)](https://arxiv.org/abs/2406.14075)
-[![hf](https://img.shields.io/badge/🤗-Hugging%20Face-blue.svg)](https://huggingface.co/datasets/Ralston/SciEvents)
+[![hf](https://img.shields.io/badge/🤗-Hugging%20Face-blue.svg)](https://huggingface.co/datasets/DataHammer/SciEvents)
 [![License](https://img.shields.io/badge/Code%20License-Apache%202.0-yellow)](https://github.com/HammerScholar/EXCEEDS?tab=Apache-2.0-1-ov-file#readme)
 [![GitHub stars](https://img.shields.io/github/stars/HammerScholar/EXCEEDS.svg?colorA=orange&colorB=orange&logo=github)](https://github.com/HammerScholar/EXCEEDS)
 
@@ -17,14 +17,14 @@ This is the repository for the paper [**EXCEEDS: Extracting Complex Events via N
 
 ## 🔥 News
 
-- **2026 April 24**: Dataset is updated on [HuggingFace](https://huggingface.co/datasets/Ralston/SciEvents).
+- **2026 April 24**: Dataset is updated on [HuggingFace](https://huggingface.co/datasets/DataHammer/SciEvents).
 - **2026 April 7**: Paper is accepted by [ACL 2026](https://2026.aclweb.org/) Main Conference.
-- **2025 Nov 11:** Dataset is released on [HuggingFace](https://huggingface.co/datasets/Ralston/SciEvents).
+- **2025 Nov 11:** Dataset is released on [HuggingFace](https://huggingface.co/datasets/DataHammer/SciEvents).
 - **2024 Jun 20:** Paper is available on [arXiv](https://arxiv.org/abs/2406.14075).
 
 ## 📊 Release of SciEvents Dataset
 
-You can find the released dataset in [this HuggingFace repository](https://huggingface.co/datasets/Ralston/SciEvents). 
+You can find the released dataset in [this HuggingFace repository](https://huggingface.co/datasets/DataHammer/SciEvents). 
 
 The data format of SciEvents can be found at [data/SciEvents/README.md](data/SciEvents/README.md).
 
@@ -32,7 +32,7 @@ The data format of SciEvents can be found at [data/SciEvents/README.md](data/Sci
 
 ### Dataset and Pre-trained Model
 
-Download SciEvents from [this HuggingFace repository](https://huggingface.co/datasets/Ralston/SciEvents). Put `train.json`, `dev.json`, and `test.json` in [data/SciEvents/](data/SciEvents/) dicectory.
+Download SciEvents from [this HuggingFace repository](https://huggingface.co/datasets/DataHammer/SciEvents). Put `train.json`, `dev.json`, and `test.json` in [data/SciEvents/](data/SciEvents/) dicectory.
 
 Download Roberta-large from [this HuggingFace repository](https://huggingface.co/FacebookAI/roberta-large/tree/main).
 
