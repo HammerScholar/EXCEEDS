@@ -17,6 +17,7 @@ This is the repository for the paper [**EXCEEDS: Extracting Complex Events via N
 
 ## 🔥 News
 
+- **2026 April 28**: Paper is updated on [arXiv](https://arxiv.org/abs/2406.14075).
 - **2026 April 24**: Dataset is updated on [HuggingFace](https://huggingface.co/datasets/DataHammer/SciEvents).
 - **2026 April 7**: Paper is accepted by [ACL 2026](https://2026.aclweb.org/) Main Conference.
 - **2025 Nov 11:** Dataset is released on [HuggingFace](https://huggingface.co/datasets/DataHammer/SciEvents).
@@ -78,10 +79,10 @@ If you find this repository useful for your research, please cite our paper:
 
 
 ```bibtex
-@misc{lu2024exceedsextractingcomplexevents,
-      title={EXCEEDS: Extracting Complex Events as Connecting the Dots to Graphs in Scientific Domain}, 
+@misc{lu2026exceedsextractingcomplexevents,
+      title={EXCEEDS: Extracting Complex Events via Nugget-based Grid Modeling in Scientific Domain}, 
       author={Yi-Fan Lu and Xian-Ling Mao and Bo Wang and Xiao Liu and Heyan Huang},
-      year={2024},
+      year={2026},
       eprint={2406.14075},
       archivePrefix={arXiv},
       primaryClass={cs.CL},
