@@ -17,6 +17,7 @@ This is the repository for the paper [**EXCEEDS: Extracting Complex Events via N
 
 ## 🔥 News
 
+- **2026 May 18**: Paper is selected as an oral paper by ACL 2026 committee. Welcome to meet us in San Diego! The oral will be held at Harbor G, Session 2, Oral Session A: Information Extraction and Retrieval 1, on Sun. July 5, 11:00-12:30.
 - **2026 April 28**: Paper is updated on [arXiv](https://arxiv.org/abs/2406.14075).
 - **2026 April 24**: Dataset is updated on [HuggingFace](https://huggingface.co/datasets/DataHammer/SciEvents).
 - **2026 April 7**: Paper is accepted by [ACL 2026](https://2026.aclweb.org/) Main Conference.
