@@ -80,13 +80,26 @@ If you find this repository useful for your research, please cite our paper:
 
 
 ```bibtex
-@misc{lu2026exceedsextractingcomplexevents,
-      title={EXCEEDS: Extracting Complex Events via Nugget-based Grid Modeling in Scientific Domain}, 
-      author={Yi-Fan Lu and Xian-Ling Mao and Bo Wang and Xiao Liu and Heyan Huang},
-      year={2026},
-      eprint={2406.14075},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2406.14075}, 
+@inproceedings{lu-etal-2026-exceeds,
+    title = "{EXCEEDS}: Extracting Complex Events via Nugget-based Grid Modeling in Scientific Domain",
+    author = "Lu, Yi-Fan  and
+      Mao, Xian-Ling  and
+      Wang, Bo  and
+      Liu, Xiao  and
+      Huang, Heyan",
+    editor = "Liakata, Maria  and
+      Moreira, Viviane P.  and
+      Zhang, Jiajun  and
+      Jurgens, David",
+    booktitle = "Proceedings of the 64th Annual Meeting of the {A}ssociation for {C}omputational {L}inguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2026",
+    address = "San Diego, California, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.acl-long.271/",
+    doi = "10.18653/v1/2026.acl-long.271",
+    pages = "5997--6022",
+    ISBN = "979-8-89176-390-6",
+    abstract = "It is crucial to understand a specific domain by events. Extensive event extraction research has been conducted in many domains such as news, finance, and biology. However, event extraction in scientific domain is still insufficiently supported by comprehensive datasets and tailored methods. Compared with other domains, scientific domain has two characteristics: (1) denser nuggets and events, and (2) more complex information forms. To solve the above problem, considering these two characteristics, we first construct SciEvents, a large-scale multi-event document-level dataset with a schema tailored for scientific domain. It consists of 2,508 documents and 24,381 events under multi-stage manual annotation and quality control. Then, we propose EXCEEDS, an end-to-end scientific event extraction framework by encoding dense nuggets into a grid matrix and simplifying complex event extraction as a nugget-based grid modeling task. Experiments on SciEvents demonstrate state-of-the-art performances of EXCEEDS. Both the SciEvents dataset and the EXCEEDS framework are released publicly to facilitate future research."
 }
 ```
